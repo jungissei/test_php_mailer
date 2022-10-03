@@ -5,7 +5,7 @@ PHP Mailerの検証
 
 ## Install/Run
 ```
-$ docker-compose up -d
+$ docker-composer up --build
 ```
 
 ## PHP
