@@ -20,10 +20,8 @@ require 'vendor/autoload.php';
 // インスタンス生成
 $mail = new PHPMailer(true);
 
-
 // .envを使用する
 Dotenv\Dotenv::createImmutable(__DIR__)->load();
-
 
 try {
     // SMTPの設定
